@@ -27,7 +27,7 @@ var defaults = [
 var progressBarText = "";
 
 var items = [["sep", "Separator", { }],  
-["intro", "Form", {continueMessage: "Pro vstup do experimentu, klikněte zde", html: {include: "intro.html"}}],
+["intro", "Form", {continueMessage: "Pro vstup do experimentu, klikněte zde", html: {include: "example_intro.html"}}],
   ["practice", aj, {s: {html: "<center><table><table cellspacing=100><tr><td><img style=\"display:block;max-width:350px;max-height:350px;width: auto;height: auto;\" src=\"https://drive.google.com/uc?id=1jwSIA9yQkKB9fSKDWUPiNoQ4xdzxmCeY\"></table></center>Kontext: Pátá třída základní školy byla na výletě ve městské zoologické zahradě. Tam se děti mohli na zvířátka nejen dívat, ale některé dokonce nakrmit.</p><center><p>Věta: <i>Pouze jeden z kluků nakrmil psa.</i></p></p>Věta je adekvátní vůči kontextu a zároveň odpovídá obrázku, neboť na něm pouze jeden kluk krmí psa. Odpověď <i>Ne</i> zde není adekvátní, protože obrázek se k větě hodí. Klikněte tedy na odpověď <i>Ano</i>.</center>"}, hasCorrect: 0}],
              
 ["practice", aj, {s: {html: "<center><table><table cellspacing=100><tr><td><img style=\"display:block;max-width:400px;max-height:400px;width: auto;height: auto;\" src=\"https://drive.google.com/uc?id=1W7D363fxA_X9KgIgOU6xkj9knEPzIPiz\"></table></center>Kontext: Pátá třída základní školy byla na výletě ve městské zoologické zahradě. Tam se děti mohli na zvířátka nejen dívat, ale některé dokonce nakrmit.</p><center><p>Věta: <i>Milan viděl Adélu natáčet tři zvířata.</i></p></p>Věta je sice adekvátní vůči kontextu, ale obrázek dané větě neodpovídá, neboť na něm Adéla jedno ze zvířat krmí. Odpověď <i>Ano</i> zde není adekvátní, protože obrázek se k větě nehodí. Klikněte tedy na odpověď <i>Ne</i>.</center>"}, hasCorrect: 1}],
